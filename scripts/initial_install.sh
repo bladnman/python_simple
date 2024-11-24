@@ -9,8 +9,8 @@ new_project_name=$(basename "$PWD")
 # Remove any existing git repository
 rm -rf .git
 
-# Check if package.json contains "initial_project_name"
-if ! grep -q "$initial_project_name" package.json; then
+# Check if pyproject.toml contains "initial_project_name"
+if ! grep -q "$initial_project_name" pyproject.toml; then
     echo
     echo "It looks like this script has already been run,"
     echo "pyproject.toml does not contain '$initial_project_name'."
