@@ -1,6 +1,6 @@
-# {{ project_name }}
+# initial_project_name
 
-{{ project_description }}
+A wee python project
 
 ## Setup
 
@@ -21,7 +21,3 @@ Run the main script:
 ```bash
 python main.py
 ```
-
-## Author
-
-{{ author_name }} 
